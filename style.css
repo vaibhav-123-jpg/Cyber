@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    width: 100%;
+}
+.navbar{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #212529;
+    overflow: hidden !important;
+}
+.nav-left{
+    width: 50%;
+}
+.nav-left a{
+    text-decoration: none;
+    color: white;
+    margin-left: 97px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+.nav-right a{
+    text-decoration: none;
+    color: #ffffff8c;
+    margin-left: 10px;
+}
+#bars{
+    color: white;
+    margin-left: 13px;
+    display: none;
+}
+#home{
+    font-weight: 700;
+    color: white;
+}
+.hero-section{
+    width: 100%;
+    height: 446px;
+    background-color: #212529;
+    justify-content: center;
+}
+.main-heading{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.hero-section h1{
+    color: white;
+    font-size: 48px;
+    margin-top: 75px;
+}
+.hero-section p{
+    color: #ffffff8c;
+    /* display: flex; */
+    text-align: center;
+    line-height: 33px;
+    font-weight: 200;
+    font-size: 20px;
+    /* margin-left: 420px; */
+}
+.b{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main-hero-btn{
+    /* margin-left: 580px; */
+    padding: 30px 0px 0px 0px;
+}
+.main-hero-btn a{
+    padding: 10px 24px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+#get{
+    background-color: #0d6efd;
+    margin-right: 30px;
+    border: none;
+}
+.main-container{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-box{
+    width: 426px;
+    height: 260px;
+}
+.first-box i{
+    color: white;
+    font-size: 36px;
+    margin-top: 10px;
+}
+.icons {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d6efd;
+    border-radius: 5px;
+}
+.first-box h2{
+    margin-top: 18px;
+}
+.first-box p{
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+.first-box a{
+    padding-top: 10px;
+    color: #0d6efd;
+    text-decoration: none;
+}
+.parag{
+    width: 100%;
+}
+.main-pay{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    line-height: 52px;
+    margin: 35px 0px ;
+    background-color: #F8F9FA;
+    padding-top: 70px;
+}
+.main-card{
+    width: 100%;
+    display: flex;
+    line-height: normal;
+    text-align: start;
+    margin: 40px 40px 50px 40px;
+}
+.main-card-item{
+    padding: 3rem !important;
+    border: 1px solid #c5c9cd !important ;
+    margin: 5px 15px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.main-card ul{
+    list-style: none;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+.main-pay h2{
+    font-size: 32px;
+}
+.main-pay p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.main-card p{
+    color: #6c757d !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: bold;
+    font-size: 14px;
+}
+.main-card span{
+    font-size: 56px;
+    color: #212529;
+    font-weight: 700 !important;
+}
+#mo{
+    font-size: 14px;
+    color: #6c757d;
+    font-weight: 400;
+}
+.lighter{
+    color: #6c757d;
+}
+.main-card-item i{
+    color: green;
+}
+.main-card img{
+    height: 14px;
+}
+.customer-test{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.customer h2{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    margin-bottom: 4px;
+}
+#work{
+    font-size: 20px;
+    color: #6c757d;
+
+}
+.para{
+    margin: 50px 0px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.review{
+    display: flex;
+    width: 50%;
+    border: 1px solid #b6b9ba;
+    padding: 22px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.review i{
+    color: #0d6efd;
+    font-size: 40px;
+}
+.review-chat{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+.review-chat p{
+    margin: 0px 0px 0px 24px !important;
+}
+#name{
+    font-size: 14px;
+    color: #6c757d;
+    padding-top: 6px;
+}
+.customer-feedback{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #F8F9FA;
+}
+.customer-msg{
+    margin: 100px 0px 0px 0px;
+}
+.customer-msg i{
+    font-size: 32px;
+    background-color: #0d6efd;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.customer-msg h2{
+    font-size: 32px;
+    margin-top: 20px;
+}
+.customer-msg p{
+    font-size: 20px;
+    color: #6c757d;
+}
+.input-box{
+    margin-top: 50px;
+}
+.input-box input{
+    width: 100%;
+    padding: 16px 36px 16px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #b6b9ba;
+    border-radius: 8px;
+    
+}
+.input-box textarea{
+    width: 588px;
+    border: 1px solid #b6b9ba;
+    padding: 16px 36px 16px 10px;
+    font-weight: 400;
+    height: 10rem;
+    border-radius: 8px;
+}
+.btn input{
+    width: 588px;
+    height: 47px;
+    border-radius: 8px;
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0px;
+    background-color: #212529;
+    color: white;
+    gap: 5px;
+}
+.customer-review{
+    display: flex;
+    justify-content: center;
+}
